@@ -26,6 +26,7 @@ namespace platformer
         //fields
         private bool bLeft;
         private bool bRight;
+        private int speed = 2;
 
         private int drop = 2;
 
@@ -47,29 +48,60 @@ namespace platformer
 
             Rect playerCollision = new Rect(Canvas.GetLeft(player), y, player.Width, player.Height);
 
+            Rectangle rectangleForRemove = null;
+
             var rectangle = MyCanvas.Children.OfType<Rectangle>();
             
             foreach(var rect in MyCanvas.Children.OfType<Rectangle>())
             {
                 if(rect.Tag != null)
                 {
+
+                    //drop = 0
+                    Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
+
                     if (rect.Tag.ToString() == "platform")
                     {
-                        //drop = 0
-                        Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
-
                         if (playerCollision.IntersectsWith(rectCollision))
                         {
                             drop = 0;
+
+                            Canvas.SetTop(player, Canvas.GetTop(rect) - player.Height);
                         }
+                        else
+                        {
+                            drop = 2;
+                        }
+                    }
+                    
+                    if(rect.Tag.ToString() == "coin"){
+                        if (playerCollision.IntersectsWith(rectCollision))
+                        {
+                            //rect.Fill = Brushes.Red;
+                            //rect.Visibility = Visibility.Hidden;
+                            rectangleForRemove = rect;
+                        }
+                           
                     }
 
                 }
                 
 
             }
+            //удаление
+            if(rectangleForRemove != null)
+            {
+                MyCanvas.Children.Remove(rectangleForRemove);
+            }
 
-   
+            if (bLeft)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) - speed);
+            }
+            if (bRight)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) + speed);
+            }
         }
 
         private void Canvas_KeyDown(object sender, KeyEventArgs e)
