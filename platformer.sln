@@ -5,6 +5,14 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platformer", "platformer\platformer.csproj", "{4D6D9D1F-A759-4F55-9452-523779F3A119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Render", "Scroller\Render.csproj", "{73F6D818-DAE0-4156-B418-808D295FDBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_game", "Console_game\Console_game.csproj", "{5AE92A85-4A48-4DBE-8F85-A6E1B0F3FE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_horror_game", "Console_horror_game\Console_horror_game.csproj", "{99940A2E-368C-4D2F-B5FA-4B9019275EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runner_app", "runner_app\runner_app.csproj", "{52E16E20-2291-472F-BB8D-298D6BE5D9EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{4D6D9D1F-A759-4F55-9452-523779F3A119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D6D9D1F-A759-4F55-9452-523779F3A119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D6D9D1F-A759-4F55-9452-523779F3A119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F6D818-DAE0-4156-B418-808D295FDBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F6D818-DAE0-4156-B418-808D295FDBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F6D818-DAE0-4156-B418-808D295FDBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F6D818-DAE0-4156-B418-808D295FDBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE92A85-4A48-4DBE-8F85-A6E1B0F3FE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE92A85-4A48-4DBE-8F85-A6E1B0F3FE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE92A85-4A48-4DBE-8F85-A6E1B0F3FE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE92A85-4A48-4DBE-8F85-A6E1B0F3FE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99940A2E-368C-4D2F-B5FA-4B9019275EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99940A2E-368C-4D2F-B5FA-4B9019275EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99940A2E-368C-4D2F-B5FA-4B9019275EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99940A2E-368C-4D2F-B5FA-4B9019275EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E16E20-2291-472F-BB8D-298D6BE5D9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E16E20-2291-472F-BB8D-298D6BE5D9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E16E20-2291-472F-BB8D-298D6BE5D9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E16E20-2291-472F-BB8D-298D6BE5D9EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,16 @@
+C:\Users\Alex\source\repos\platformer\Scroller\bin\Debug\Scroller.exe.config
+C:\Users\Alex\source\repos\platformer\Scroller\bin\Debug\Scroller.exe
+C:\Users\Alex\source\repos\platformer\Scroller\bin\Debug\Scroller.pdb
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Render.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Render.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller_MarkupCompile.cache
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller_MarkupCompile.lref
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller.g.resources
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller.Properties.Resources.resources
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Render.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Render.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller.exe
+C:\Users\Alex\source\repos\platformer\Scroller\obj\Debug\Scroller.pdb

@@ -79,8 +79,14 @@
         <Rectangle Fill="DeepPink" 
                    Width="20" Height="50"
                    Canvas.Left="370" Canvas.Top="525"
-                   RadiusX="10" RadiusY="20">
+                   RadiusX="10" RadiusY="20"
+                   Tag="portal">
 
         </Rectangle>
+
+        <Label Content="Собери все монетки"
+               FontSize="20"
+               Canvas.Left="110" Canvas.Top="255"
+               Name="lbl_portal" HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Canvas>
 </Window>

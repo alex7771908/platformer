@@ -1,0 +1,16 @@
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app_MarkupCompile.cache
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app_MarkupCompile.lref
+C:\Users\Alex\source\repos\platformer\runner_app\bin\Debug\runner_app.exe.config
+C:\Users\Alex\source\repos\platformer\runner_app\bin\Debug\runner_app.exe
+C:\Users\Alex\source\repos\platformer\runner_app\bin\Debug\runner_app.pdb
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.g.resources
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.Properties.Resources.resources
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.exe
+C:\Users\Alex\source\repos\platformer\runner_app\obj\Debug\runner_app.pdb
